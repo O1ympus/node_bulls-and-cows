@@ -26,7 +26,7 @@ function askForGuess() {
       return askForGuess();
     }
 
-    if (randNumber === input) {
+    if (randNumber.toString() === input) {
       console.log('Lucky you, my congratulations! YOU WON!!!!');
 
       rl.close();
