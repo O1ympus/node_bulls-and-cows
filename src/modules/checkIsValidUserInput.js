@@ -15,7 +15,7 @@ function checkIsValidUserInput(userInput) {
     return false;
   }
 
-  if (isNaN(+userInput)) {
+  if (isNaN(+userNumber)) {
     return false;
   }
 
@@ -23,7 +23,7 @@ function checkIsValidUserInput(userInput) {
     return false;
   }
 
-  if (new Set(userInput.split('')).size !== userNumber.length) {
+  if (new Set(userNumber.split('')).size !== userNumber.length) {
     return false;
   }
 
